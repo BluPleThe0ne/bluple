@@ -1,0 +1,283 @@
+@-webkit-keyframes color-change-2x {
+    0% {
+      background: #197bea;
+    }
+    100% {
+      background: #00557f;
+    }
+  }
+  @keyframes color-change-2x {
+    0% {
+      background: #197bea;
+    }
+    100% {
+      background: #00557f;
+    }
+  }
+  
+html {
+	-webkit-animation: color-change-2x 2s linear infinite alternate both;
+	        animation: color-change-2x 2s linear infinite alternate both;
+}
+
+#youtube {
+    width: 250px;
+    height: 80Px;
+    background-color: #ff5959;
+    border-color: #dd3434;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px #dd3434;
+    color: white;
+    font-family: 'ADLaM Display', cursive;
+}
+
+#ytlogo {
+    width: 60px;
+    display: inline-block;
+}
+
+#discord {
+    width: 250px;
+    height: 80Px;
+    background-color: #5865F2;
+    border-color: #0055ff;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px #0055ff;
+    color: white;
+    font-family: 'ADLaM Display', cursive;
+}
+
+#dclogo {
+    width: 60px;
+    display: inline-block;
+}
+
+#x {
+    width: 250px;
+    height: 80Px;
+    background-color: #242424;
+    border-color: #000000;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px #000000;
+    color: white;
+    font-family: 'ADLaM Display', cursive;
+}
+
+#xlogo {
+    width: 60px;
+    display: inline-block;
+}
+
+#projects {
+    width: 250px;
+    height: 80Px;
+    background-color: #aa55ff;
+    border-color: #7f20df;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px #7f20df;
+    color: white;
+    font-family: 'ADLaM Display', cursive;
+}
+
+#projectsicon {
+    width: 40px;
+    display: inline-block;
+}
+
+#pfp {
+
+    width: 150px;
+    border-radius: 100px;
+    border-color: #0066ff;
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: 5px 5px 0px #0066ff;
+
+}
+
+#discord:hover {
+    width: 280px;
+    box-shadow: 5px 10px 0px #0055ff;
+}
+
+#youtube:hover {
+    width: 280px;
+    box-shadow: 5px 10px 0px #dd3434;
+}
+
+#x:hover {
+    width: 280px;
+    box-shadow: 5px 10px 0px #000000;
+}
+
+#projects:hover {
+    width: 280px;
+    box-shadow: 5px 10px 0px #7f20df;
+}
+
+h1 {
+    color: white;
+    font-family: 'ADLaM Display', cursive;
+}
+
+
+ @-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+#discord {
+	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#youtube {
+	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#x {
+	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#projects {
+	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+ @-webkit-keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  
+h1 {
+	-webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+ @-webkit-keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  
+#pfp {
+	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
+}
